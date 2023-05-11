@@ -193,8 +193,8 @@ a {
 	z-index: 2;
 	grid-row: 6/90;
 	grid-column: 19/97;
-	background-color: #5c5c5c;
-	border: 4px solid #5e5e5e;
+	background-color: #7c7c7c;
+	border: 4px solid #7e7e7e;
 	opacity: 90%;
 
 	display: grid;
@@ -268,10 +268,9 @@ li {
 	display: flex;
 	justify-content: left;
 	font-size: 2rem;
-	color: #ff583e;
+	color: #cf280e;
 	padding: 2rem;
 	padding-left: 0;
-
 }
 
 #projectdescriptions {
