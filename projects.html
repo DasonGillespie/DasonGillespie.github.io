@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Dason Gillespie - Projects</title>
+        <meta charset='UTF-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+		<div id="grid-container">
+
+			<nav id="nav"> 
+			</nav>
+			<div id="navbuttons">
+				<div id="portrait"></div>
+				<a href="index.html" id="button1">Home</a>
+				<a href="about.html" id="button2">About Me</a>
+				<a href="projects.html" id="button3">Projects</a>
+				<a href="contact.html" id="button4">Contact</a>
+			</div>
+
+			<main id="grid-namescreen">
+			</main>
+
+			<div id="pagecontent">
+				<div id="linkspot">
+				<a id="projectslink" href="https://github.com/DasonGillespie/ResumeProjects" target="_blank">GitHub Projects Repo</a>
+				</div>
+				<div id="projectdescriptions">
+				<h1 class="projectsection">Chord</h1>
+				<p class="projectdescription">Chord is a project that implements the P2P distributed system introduced by various researchers from MIT in 2001. Chord uses a distributed hashtable to assign keys to different nodes in a network and by doing so allows clients to share a vast amount of data, which is maintained by all the nodes in the system, while only holding a small amount of data themselves. All of this is done without the need of a single main server because each node acts as both client and server. To test this program, run the Chord executable and more instruction is provided. To see the full fuction of this program, I recommend running the program in multiple terminals to create a small Chord Ring.</p>
+				<h1 class="projectsection">RPC-Chat</h1>
+				<p class="projectdescription">This program provides a very limited interface and is mostly used to demonstrate how Remote Proceedure Calls work. In practice we would likely use an RPC package to do this work, but this code provides insight into what happend what an RPC call is made such as serializing data and sending it across a network to call a method on another machine. To run this program, run the executable along with some specified arguments. If starting up the first node in the system give a port number for the server to listen on. Otherwise, give the address of the server and then a username to login on.
+				<h1 class="projectsection">Fractal</h1>
+				<p class="projectdescription">This Project contains a lot of code and functionality that I wont get into. I recommend simply testing it because the end product is pretty cool. Run the glut_main executable in the gui-src folder. The default display is a Mandelbrot fractal. By pressing 'n' you can switch it to a Julia fractal, 'b' will switch back. By clicking somewhere on the Mandelbrot fractal, the Julia Fractal will change (best results are from clicking on the edge of the mandelbrot).
+				</div>
+			</div>
+			<div id="randombox1"></div>
+			<div id="randombox2"></div>
+
+			<footer id="footer"> 
+			</footer>
+		</div>
+    </body>
+
+</html>
