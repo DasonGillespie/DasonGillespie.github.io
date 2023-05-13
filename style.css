@@ -120,7 +120,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	font-size: 1.6rem;
-	opacity: 85%;
+	opacity: 80%;
 }
 
 #button1 {
@@ -348,12 +348,14 @@ li {
 		grid-column: 2/35;
 	}
 	.projectsection {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		padding: .3rem;
 		padding-left: 0;
+		padding-bottom: 0;
 	}
 	.projectdescription {
-		font-size: 1.2rem;
+		padding-top: .75rem;
+		font-size: 1.15rem;
 	}
 	#contactinfo {
 		grid-row: 36/101;
